@@ -1,6 +1,7 @@
 .container {
   max-width: 1500px;
   margin: 0 auto;
+  background: rgb(0, 0, 0);
 }
 header {
   background-image: url("../src/images/gabrielle-henderson-blackandgold-unsplash.jpg");
@@ -13,6 +14,11 @@ h2,
 h3 {
   color: rgb(248, 240, 231);
 }
+.grid{
+  max-width: 1300px;
+  margin:0 auto;
+}
+
 
 .equal-3-columns {
   display: grid;
@@ -23,10 +29,11 @@ h3 {
 
 .secondrow {
   display: grid;
+  max-width: 800px;
+  margin: 0 auto;
   grid-gap: 30px;
   grid-template-columns: 1fr 1fr;
-  margin-left: 15%;
-  margin-right: 15%;
+  
 }
 
 .img-hgt {
@@ -40,3 +47,18 @@ h3 {
   display: block;
   aspect-ratio: 10/10;
 }
+
+ .card {
+  border-bottom-left-radius: 35%;
+ }
+ .card-text{
+  padding:15px
+ }
+ .card-title{
+  font-size: 27px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding-left:15px ;
+  line-height: .3;
+
+ }
