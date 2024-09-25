@@ -13,6 +13,10 @@ h1,
 h2,
 h3 {
   color: rgb(248, 240, 231);
+  background-color: rgba(245, 238, 220, 0.515);
+  padding: 20px;
+  font-family: "Merriweather", serif;
+ 
 }
 .grid{
   max-width: 1300px;
@@ -49,16 +53,25 @@ h3 {
 }
 
  .card {
+  border:  7px solid #f6e7c9;
   border-bottom-left-radius: 35%;
+  background-color: rgb(253, 246, 239);
  }
  .card-text{
-  padding:15px
+  padding:15px;
+  font-weight: 450;
+
+  
  }
  .card-title{
+  font-family: "Poppins", system-ui;
   font-size: 27px;
   text-transform: uppercase;
   margin-top: 10px;
   padding-left:15px ;
   line-height: .3;
+ }
 
+ .btn {
+  background-color: rgb(154, 96, 69);
  }
