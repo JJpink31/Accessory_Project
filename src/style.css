@@ -7,23 +7,47 @@ header {
   background-image: url("../src/images/gabrielle-henderson-blackandgold-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px;
+  position: relative;
+  height: 800px;
+  
+
 }
 h1,
 h2,
 h3 {
-  color: rgb(248, 240, 231);
-  background-color: rgba(245, 238, 220, 0.515);
   padding: 20px;
   font-family: "Merriweather", serif;
- 
 }
+h1 {
+  display: block;
+  font-size: 50px;
+  color: rgb(55, 40, 22);
+  background-color: rgb(245, 238, 220);
+}
+h2 {
+  display: block;
+  max-width: 400px;
+  color: rgb(255, 246, 235);
+  font-size: 24px;
+  position: absolute;
+  bottom: 0;
+
+  
+}
+h3{
+  color: rgb(255, 246, 235);
+  background-color: rgba(245, 238, 220, 0.68);
+
+}
+
+
+
+
+
 .grid{
   max-width: 1300px;
   margin:0 auto;
 }
-
-
 .equal-3-columns {
   display: grid;
   grid-gap: 30px;
